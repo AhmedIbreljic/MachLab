@@ -98,16 +98,16 @@ export default function HomePage() {
 		<PageWrapper>
 			<div className="flex w-full flex-col items-center px-4">
 				<Head>
-					<title>EduX - Degree Scheduling Using AI</title>
+					<title>MachLab - Advanced Hardware Electronics</title>
 					<meta
 						name="description"
-						content="Combine your drives and clouds into one database that you can organize and explore from any device. Designed for creators, hoarders and the painfully disorganized."
+						content="Forging the future of defense with our cutting-edge mach-speed technology. Propelling innovation to new frontiers."
 					/>
 				</Head>
 				<div className="mt-22 lg:mt-28" id="content" aria-hidden="true" />
 				<div className="mt-24 lg:mt-8" />
 				<NewBanner
-					headline="EduX looking to raise Seed Round!"
+					headline="MachLab at IEEE 2023 Showcase!"
 					href="/blog/spacedrive-funding-announcement"
 					link="Read post"
 				/>
@@ -126,27 +126,27 @@ export default function HomePage() {
 				)}
 
 				<h1 className="fade-in-heading z-30 mb-3 px-2 text-center text-4xl font-black leading-tight text-white md:text-7xl">
-					Degree Scheduling Using AI
+					Propelling Innovation to New Frontiers.
 				</h1>
 				<p className="animation-delay-1 fade-in-heading text-md leading-2 z-30 mb-8 mt-1 max-w-4xl text-center text-gray-450 lg:text-lg lg:leading-8">
-					Unlock the full potential of higher education with AI-powered degree scheduling
+					Advanced Electronics Intended for 
 					
 					<br />
 					<span className="hidden sm:block">
-						optimizing course selection, timetable coordination, and graduation planning. 
+						Mach Speed Autonomous Vehicles
 					</span>
 				</p>
 				<HomeCTA />
 				<AppImage />
 				<Section
 					orientation="right"
-					heading="Your graduation is our priority."
+					heading="Top Hardware Electronics."
 					className="z-30 mt-0 sm:mt-8"
 					description={
 						<>
-							EduX ensures every course, credit, and milestone is meticulously tracked,
-							allowing you to seamless plan, organize, and achieve your educational goals
-							with unparalleled efficiency. 
+							Forging the future of defense with our cutting-edge mach-speed technology.
+							Allowing you to seamlessly alternate our prototype to achieve your 
+							technological goals with unparalleled efficiency. 
 							<br />
 							<br />
 							<Link
