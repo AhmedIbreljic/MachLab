@@ -1,0 +1,22 @@
+[package]
+name = "sd-ffmpeg"
+version = "0.1.0"
+authors = ["Ericson Soares <ericson.ds999@gmail.com>"]
+readme = "README.md"
+description = "A simple library to generate video thumbnails using ffmpeg with the webp format"
+rust-version = "1.64.0"
+license = { workspace = true }
+repository = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+ffmpeg-sys-next = "6.0.1"
+tracing = { workspace = true }
+
+thiserror = "1.0.48"
+webp = "0.2.5"
+tokio = { workspace = true, features = ["fs", "rt"] }
+
+[dev-dependencies]
+tempfile = "3.8.0"
+tokio = { workspace = true, features = ["fs", "rt", "macros"] }

@@ -1,0 +1,15 @@
+[package]
+name = "sd-desktop-windows"
+version = "0.1.0"
+license = { workspace = true }
+repository = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+thiserror = "1.0.48"
+normpath = "1.1.1"
+libc = "0.2"
+
+[target.'cfg(target_os = "windows")'.dependencies.windows]
+version = "0.51"
+features = ["Win32_UI_Shell", "Win32_Foundation", "Win32_System_Com"]

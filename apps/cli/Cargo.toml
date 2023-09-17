@@ -1,0 +1,14 @@
+[package]
+name = "sd-cli"
+version = "0.1.0"
+license = { workspace = true }
+repository = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+indoc = "2.0.3"
+clap = { version = "4.4.2", features = ["derive"] }
+anyhow = "1.0.75"
+hex = "0.4.3"
+sd-crypto = { path = "../../crates/crypto" }
+tokio = { workspace = true, features = ["io-util", "rt-multi-thread"] }
