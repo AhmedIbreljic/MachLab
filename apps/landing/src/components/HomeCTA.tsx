@@ -59,7 +59,7 @@ export function HomeCTA() {
 							className="z-30 cursor-pointer border-0"
 							variant="gray"
 						>
-							Join Waitlist
+							Join Email List
 						</Button>
 						<Button
 							href="https://github.com/spacedriveapp/spacedrive"
@@ -67,8 +67,7 @@ export function HomeCTA() {
 							className="z-30 cursor-pointer"
 							variant="accent"
 						>
-							<Github className="-ml-1 mr-2 mt-[-4px] inline h-5 w-5" fill="white" />
-							Demo
+							Shop Tech
 						</Button>
 					</>
 				) : (
@@ -162,9 +161,9 @@ export function HomeCTA() {
 					</>
 				) : (
 					<>
-						Coming soon on macOS, Windows and Linux.
+						Sales limited to United States citizens and residents. 
 						<br />
-						Shortly after to iOS & Android.
+						No exceptions to this - apologies for the inconvenience.
 					</>
 				)}
 			</p>
