@@ -126,14 +126,13 @@ export default function HomePage() {
 				)}
 
 				<h1 className="fade-in-heading z-30 mb-3 px-2 text-center text-4xl font-black leading-tight text-white md:text-7xl">
-					Propelling Innovation to New Frontiers.
+					Propelling Innovation
 				</h1>
 				<p className="animation-delay-1 fade-in-heading text-md leading-2 z-30 mb-8 mt-1 max-w-4xl text-center text-gray-450 lg:text-lg lg:leading-8">
-					Advanced Electronics Intended for 
+					Advanced Electronics Intended for Mach Speed Autonomous Vehicles.
 					
 					<br />
 					<span className="hidden sm:block">
-						Mach Speed Autonomous Vehicles
 					</span>
 				</p>
 				<HomeCTA />
