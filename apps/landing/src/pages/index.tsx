@@ -98,7 +98,7 @@ export default function HomePage() {
 		<PageWrapper>
 			<div className="flex w-full flex-col items-center px-4">
 				<Head>
-					<title>MachLab - Advanced Hardware Electronics</title>
+					<title>MachLab - Advanced Hardware Electronics. </title>
 					<meta
 						name="description"
 						content="Forging the future of defense with our cutting-edge mach-speed technology. Propelling innovation to new frontiers."
