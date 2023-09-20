@@ -12,54 +12,36 @@ export const teamMembers: Array<TeamMemberProps> = [
 		role: 'Founder, CEO & Engineer',
 		imageUrl: '/images/team/jamie.jpg',
 		socials: {
-			twitter: 'https://x.com/jamiepine',
-			twitch: 'https://twitch.tv/jamiepinelive',
-			github: 'https://github.com/jamiepine'
+			twitter: 'https://x.com/MagnusMachLab',
+			twitch: 'https://twitch.tv/MagnusMachLab',
+			github: 'https://github.com/theMagnusMachLab'
 		}
 	},
 	{
 		name: 'Ericson James',
-		role: 'Rust Engineer',
+		role: 'Senior Principle Systems Engineer',
 		imageUrl: '/images/team/ericson.jpg',
 		socials: {
 			twitter: 'https://x.com/fogodev',
-			github: 'https://github.com/fogodev'
+			github: 'https://github.com/MachLab1'
 		}
 	},
 	{
 		name: 'Andrew Taung',
-		role: 'React Native Engineer',
+		role: 'Senior Hardware Engineer',
 		imageUrl: '/images/team/utku.jpg',
 		socials: {
-			github: 'https://github.com/utkubakir'
+			github: 'https://github.com/MachLab2'
 		}
 	},
 	{
 		name: 'Pye Ling Phaou',
-		role: 'Rust Engineer',
+		role: 'Senior Mechanical Engineer',
 		imageUrl: '/images/team/jake.jpg',
 		socials: {
-			github: 'https://github.com/brxken128'
+			github: 'https://github.com/MachLab3'
 		}
 	},
-	{
-		name: 'Mihail Dounaev',
-		role: 'Graphic Designer',
-		imageUrl: '/images/team/mihail.jpg',
-		socials: {
-			twitter: 'https://x.com/mmmintdesign',
-			dribbble: 'https://dribbble.com/mmmint'
-		}
-	},
-	{
-		name: 'Nik Elšnik',
-		role: 'React Engineer & Designer',
-		imageUrl: '/images/team/nikec.jpg',
-		socials: {
-			github: 'https://github.com/niikeec',
-			twitter: 'https://x.com/nikec_'
-		}
-	}
 ];
 
 const investors: Array<TeamMemberProps> = [
