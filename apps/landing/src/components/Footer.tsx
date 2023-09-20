@@ -1,4 +1,3 @@
-import { AppLogo } from '@sd/assets/images';
 import {
 	Discord,
 	Github,
@@ -10,6 +9,8 @@ import {
 import Image from 'next/image';
 import Link from 'next/link';
 import { PropsWithChildren } from 'react';
+
+import Logo from '../../public/logo.png';
 
 function FooterLink(props: PropsWithChildren<{ link: string; blank?: boolean }>) {
 	return (
@@ -29,29 +30,29 @@ export function Footer() {
 		<footer id="footer" className="z-50 w-screen border-t border-gray-550 pt-3 backdrop-blur">
 			<div className="min-h-64 m-auto grid max-w-[100rem] grid-cols-2 gap-6 p-8 pb-20 pt-10 text-white sm:grid-cols-2 lg:grid-cols-6">
 				<div className="col-span-2">
-					<Image alt="Spacedrive logo" src={AppLogo} className="mb-5 h-10 w-10" />
+					<Image alt="Spacedrive logo" src={Logo} className="mb-5 h-10 w-10" />
 
 					<h3 className="mb-1 text-xl font-bold">MachLab</h3>
 					<p className="text-sm text-gray-350 opacity-50">
-						&copy; Copyright {new Date().getFullYear()} EduX AI Inc.
+						&copy; Copyright {new Date().getFullYear()} MachLab Technology Inc.
 					</p>
 					<div className="mb-10 mt-12 flex flex-row space-x-3">
-						<FooterLink link="https://x.com/EduX">
+						<FooterLink link="https://x.com/spacedriveapp">
 							<Twitter className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://discord.gg/EduX">
+						<FooterLink link="https://discord.gg/gTaF2Z44f5">
 							<Discord className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://instagram.com/EduX">
+						<FooterLink link="https://instagram.com/spacedriveapp">
 							<Instagram className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://github.com/EduX">
+						<FooterLink link="https://github.com/spacedriveapp">
 							<Github className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://opencollective.com/EduX">
+						<FooterLink link="https://opencollective.com/spacedrive">
 							<Opencollective className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://twitch.tv/EduX">
+						<FooterLink link="https://twitch.tv/jamiepinelive">
 							<Twitch className="h-6 w-6" />
 						</FooterLink>
 					</div>
@@ -67,17 +68,17 @@ export function Footer() {
 					<FooterLink link="/blog">Blog</FooterLink>
 				</div>
 				<div className="pointer-events-none col-span-1 flex flex-col space-y-2">
-					<h3 className="mb-1 text-xs font-bold uppercase">Parterns</h3>
+					<h3 className="mb-1 text-xs font-bold uppercase">Downloads</h3>
 					<div className="col-span-1 flex flex-col space-y-2 opacity-50">
-						<FooterLink link="#">VDCs</FooterLink>
-						<FooterLink link="#">Donors</FooterLink>
-						<FooterLink link="#">Universities</FooterLink>
-						<FooterLink link="#">Community Colleges</FooterLink>
-						<FooterLink link="#">High Schools</FooterLink>
+						<FooterLink link="#">macOS</FooterLink>
+						<FooterLink link="#">Windows</FooterLink>
+						<FooterLink link="#">Linux</FooterLink>
+						<FooterLink link="#">Android</FooterLink>
+						<FooterLink link="#">iOS</FooterLink>
 					</div>
 				</div>
 				<div className="col-span-1 flex flex-col space-y-2">
-					<h3 className="mb-1 text-xs font-bold uppercase ">Agreements</h3>
+					<h3 className="mb-1 text-xs font-bold uppercase ">Developers</h3>
 					<FooterLink link="/docs/product/getting-started/introduction">
 						Documentation
 					</FooterLink>
@@ -91,7 +92,7 @@ export function Footer() {
 						<FooterLink link="#">Extensions</FooterLink>
 					</div>
 					<div className="pointer-events-none opacity-50">
-						<FooterLink link="#">Discussions</FooterLink>
+						<FooterLink link="#">Self Host</FooterLink>
 					</div>
 				</div>
 				<div className="col-span-1 flex flex-col space-y-2">
