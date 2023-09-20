@@ -49,7 +49,7 @@ const investors: Array<TeamMemberProps> = [
 		name: 'Coming soon',
 		role: 'XXX',
 		investmentRound: 'Seed Round',
-		imageUrl: '/images/investors/X.jpg'
+		imageUrl: '/images/investors/naval.jpg'
 	},
 ];
 
