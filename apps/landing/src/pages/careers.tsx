@@ -94,7 +94,7 @@ export default function CareersPage() {
 	return (
 		<PageWrapper>
 			<Head>
-				<title>Careers - Spacedrive</title>
+				<title>Careers - MachLab</title>
 				<meta
 					name="description"
 					content="Work with us to build the future of file management."
@@ -106,13 +106,12 @@ export default function CareersPage() {
 					style={{ transform: 'scale(2)' }}
 				/>
 				<h1 className="fade-in-heading mb-3 px-2 text-center text-4xl font-black leading-tight text-white md:text-5xl">
-					Build the future of files.
+					Building advanced electronics for mach-speed vehicles.
 				</h1>
 				<div className="animation-delay-1 z-30 flex flex-col items-center fade-in">
 					<p className="z-40 text-center text-lg text-gray-350">
-						Spacedrive is redefining the way we think about our personal data, building
-						a open ecosystem to help preserve your digital legacy and make
-						cross-platform file management a breeze.
+						MachLab is propelling innovation for advanced Electronics Intended for Mach Speed Autonomous Vehicles. We
+						conduct R&D daily to ensure that our electronic kits are catered for enigneers. 
 					</p>
 					<Button
 						onClick={scrollToPositions}
@@ -210,7 +209,7 @@ export default function CareersPage() {
 					</h2>
 					<p className="mt-2">
 						Send your cover letter and resume to{' '}
-						<strong>careers at spacedrive dot com</strong> and we'll get back to you
+						<strong>careers at machlab dot com</strong> and we'll get back to you
 						shortly!
 					</p>
 				</div>
