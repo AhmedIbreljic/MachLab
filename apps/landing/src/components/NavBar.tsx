@@ -67,7 +67,7 @@ export default function NavBar() {
 			<div className="relative m-auto flex h-full max-w-[100rem] items-center p-5">
 				<Link href="/" className="absolute flex flex-row items-center">
 					<Image alt="Spacedrive logo" src={AppLogo} className="z-30 mr-3 h-8 w-8" />
-					<h3 className="text-xl font-bold text-white">Spacedrive</h3>
+					<h3 className="text-xl font-bold text-white">MachLab</h3>
 				</Link>
 
 				<div className="m-auto hidden space-x-4 text-white lg:block ">
