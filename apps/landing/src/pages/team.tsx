@@ -178,7 +178,7 @@ export default function TeamPage() {
 		<PageWrapper>
 			<Markdown articleClassNames="mx-auto mt-32 prose-a:text-white">
 				<Head>
-					<title>Our Team - Spacedrive</title>
+					<title>Our Team - MachLab</title>
 					<meta name="description" content="Who's behind Spacedrive?" />
 				</Head>
 				<div className="team-page relative mx-auto">
@@ -217,14 +217,14 @@ export default function TeamPage() {
 								))}
 							</div>
 							<p className="text-sm text-gray-400">
-								... and all the awesome{' '}
+								... and other{' '}
 								<Link
 									href="https://github.com/spacedriveapp/spacedrive/graphs/contributors"
 									target="_blank"
 									rel="noreferrer"
 									className="oss-credit-gradient duration-200 hover:opacity-75"
 								>
-									open source contributors
+									technology contributors
 								</Link>{' '}
 								on GitHub.
 							</p>
