@@ -10,7 +10,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { PropsWithChildren } from 'react';
 
-import Logo from '../../public/AppLogo.png';
+import Logo from '../../public/logo.png';
 
 function FooterLink(props: PropsWithChildren<{ link: string; blank?: boolean }>) {
 	return (
