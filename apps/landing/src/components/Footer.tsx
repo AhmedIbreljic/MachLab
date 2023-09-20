@@ -31,7 +31,7 @@ export function Footer() {
 				<div className="col-span-2">
 					<Image alt="Spacedrive logo" src={AppLogo} className="mb-5 h-10 w-10" />
 
-					<h3 className="mb-1 text-xl font-bold">Spacedrive</h3>
+					<h3 className="mb-1 text-xl font-bold">MachLab</h3>
 					<p className="text-sm text-gray-350 opacity-50">
 						&copy; Copyright {new Date().getFullYear()} EduX AI Inc.
 					</p>
