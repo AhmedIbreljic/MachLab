@@ -16,7 +16,7 @@ const AppImage = () => {
 						<Image
 							className="rounded-lg"
 							alt="spacedrive"
-							src="/images/Am.jpg"
+							src="/images/AM.jpg"
 							loading="eager"
 							width={1278}
 							height={626}
