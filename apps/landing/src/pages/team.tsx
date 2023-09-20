@@ -8,8 +8,8 @@ import { TeamMember, TeamMemberProps } from '~/components/TeamMember';
 
 export const teamMembers: Array<TeamMemberProps> = [
 	{
-		name: 'Jamie Pine',
-		role: 'Founder, Engineer & Designer',
+		name: 'Magnus White Ljorden',
+		role: 'Founder, CEO & Engineer',
 		imageUrl: '/images/team/jamie.jpg',
 		socials: {
 			twitter: 'https://x.com/jamiepine',
@@ -18,27 +18,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 		}
 	},
 	{
-		name: 'Brendan Allan',
-		role: 'Rust Engineer',
-		imageUrl: '/images/team/brendan.jpg',
-		socials: {
-			twitter: 'https://x.com/brendonovichdev',
-			twitch: 'https://twitch.tv/brendonovich',
-			github: 'https://github.com/brendonovich'
-		}
-	},
-	{
-		name: 'Oscar Beaumont',
-		role: 'Rust Engineer',
-		imageUrl: '/images/team/oscar.jpg',
-		socials: {
-			twitter: 'https://x.com/oscartbeaumont',
-			twitch: 'https://twitch.tv/oscartbeaumont',
-			github: 'https://github.com/oscartbeaumont'
-		}
-	},
-	{
-		name: 'Ericson Soares',
+		name: 'Ericson James',
 		role: 'Rust Engineer',
 		imageUrl: '/images/team/ericson.jpg',
 		socials: {
@@ -47,7 +27,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 		}
 	},
 	{
-		name: 'Utku Bakır',
+		name: 'Andrew Hall',
 		role: 'React Native Engineer',
 		imageUrl: '/images/team/utku.jpg',
 		socials: {
@@ -55,7 +35,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 		}
 	},
 	{
-		name: 'Jake Robinson',
+		name: 'Pye Ling Phaou',
 		role: 'Rust Engineer',
 		imageUrl: '/images/team/jake.jpg',
 		socials: {
@@ -69,22 +49,6 @@ export const teamMembers: Array<TeamMemberProps> = [
 		socials: {
 			twitter: 'https://x.com/mmmintdesign',
 			dribbble: 'https://dribbble.com/mmmint'
-		}
-	},
-	{
-		name: 'Ameer Al Ashhab',
-		role: 'React Engineer & Designer',
-		imageUrl: '/images/team/ameer.jpg',
-		socials: {
-			github: 'https://github.com/ameer2468'
-		}
-	},
-	{
-		name: 'Vítor Vasconcellos',
-		role: 'React Engineer & Designer',
-		imageUrl: '/images/team/vitor.jpg',
-		socials: {
-			github: 'https://github.com/HeavenVolkoff'
 		}
 	},
 	{
