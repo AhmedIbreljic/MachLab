@@ -7,116 +7,116 @@ import PageWrapper from '~/components/PageWrapper';
 
 const items = [
 	{
-		when: 'Big Bang',
-		subtext: 'Q1 2022',
+		when: 'Spark',
+		subtext: 'Q1 2021',
 		completed: true,
-		title: 'File discovery',
+		title: 'Visio Planning',
 		description:
-			'Scan devices, drives and cloud accounts to build a directory of all files with metadata.'
+			'V Models and Org Charts of our team and intended R&D for the next three years.'
 	},
 	{
-		title: 'Preview generation',
+		title: 'Technology Breakdown',
 		completed: true,
-		description: 'Auto generate lower resolution stand-ins for image and video.'
+		description: 'Analyzed current problems in tech and mapped different protoypes of various technology devices.'
 	},
 	{
 		title: 'Statistics',
 		completed: true,
-		description: 'Total capacity, index size, preview media size, free space etc.'
+		description: 'Total capacity, device size, preview growth, BOM, total prototype costs, and electrical requirements.'
 	},
 	{
-		title: 'Jobs',
+		title: 'Org',
 		completed: true,
 		description:
-			'Tasks to be performed via a queue system with multi-threaded workers, such as indexing, identifying, generating preview media and moving files. With a Job Manager interface for tracking progress, pausing and restarting jobs.'
+			'Tasks to be performed via a queue system tracking progress and allocating work between engineers.'
 	},
 	{
 		when: 'Alpha',
-		subtext: 'Q2 2022',
+		subtext: 'Q2 2021',
 		completed: true,
 		title: 'Explorer',
 		description:
-			'Browse online/offline storage locations, view files with metadata, perform basic CRUD.'
+			'Limited funding, building initial prototypes of each project.'
 	},
 	{
 		completed: true,
-		title: 'Self hosting',
+		title: 'Self promotion',
 		description:
-			'Spacedrive can be deployed as a service, behaving as just another device powering your personal cloud.'
+			'Hosted at various different college competitions, competing to win cash prizes.'
 	},
 	{
 		completed: true,
-		title: 'Tags',
+		title: 'Connections',
 		description:
-			'Define routines on custom tags to automate workflows, easily tag files individually, in bulk and automatically via rules.'
+			'Custom tags and connections with other various R&D companies.'
 	},
 	{
 		completed: true,
-		title: 'Key manager',
+		title: 'Management',
 		description:
-			'View, mount, unmount and hide keys. Mounted keys can be used to instantly encrypt and decrypt any files on your node.'
+			'Progression on prototypes steady as anticipations of seed rounds'
 	},
 	{
 		when: 'Present Day',
-		title: 'Spacedrop',
-		description: 'Drop files between devices and contacts on a keybind like AirDrop.'
+		title: 'Kits',
+		description: 'Developing our tech kits for engineers to purchase and iterate on more breakthroughs.'
 	},
 	{
-		title: 'Search',
-		description: 'Deep search into your filesystem with a keybind, including offline locations.'
+		title: 'Problems',
+		description: 'Deep dive into any potential problems with our kits'
 	},
 	{
-		title: 'Photos',
-		description: 'Photos and video albums similar to Apple/Google photos.'
+		title: 'Testing',
+		description: 'Integrating and testing our kits to ensure that people are able to utilize our prototyes.'
 	},
 	{
 		when: '0.1.0 Beta',
 		subtext: 'Q2 2023',
 		title: 'Realtime library synchronization',
-		description: 'Automatically synchronized libraries across devices via P2P connections.'
+		description: 'XXXXXX.'
 	},
 	{
-		title: 'Media encoder',
+		title: 'Tech encoder',
 		description:
-			'Encode video and audio into various formats, use Tags to automate. Built with FFmpeg.'
+			'XXXXXX.'
 	},
 	{
 		title: 'Cloud integration',
 		description:
-			'Index & backup to Apple Photos, Google Drive, Dropbox, OneDrive & Mega + easy API for the community to add more.'
+			'XXXXXX.'
 	},
 	{
-		title: 'Hosted Spaces',
-		description: 'Host select Spaces on our cloud to share with friends or publish on the web.'
+		title: 'Custom Support',
+		description: 'XXXXXX.'
 	},
 	{
 		when: '0.6.0 Beta',
 		subtext: 'Q3 2023',
 		title: 'Extensions',
 		description:
-			'Build tools on top of Spacedrive, extend functionality and integrate third party services. Extension directory on spacedrive.com/extensions.'
+			'XXXXXX.'
 	},
 	{
-		title: 'Encrypted vault(s)',
+		title: 'Encryption',
 		description:
-			'Effortlessly manage & encrypt sensitive files. Encrypt individual files or create flexible-size vaults.'
+			'XXXXXX.'
 	},
 	{
-		when: 'Release',
+		when: 'New Release',
 		subtext: 'Q4 2023',
-		title: 'Timeline',
+		title: 'Kits 2.0',
 		description:
-			'View a linear timeline of content, travel to any time and see media represented visually.'
+			'XXXXXX.'
 	},
 	{
-		title: 'Redundancy',
+		title: 'Advanced Prototypes',
 		description:
-			'Ensure a specific amount of copies exist for your important data, discover at-risk files and monitor device/drive health.'
+			'XXXXXX.'
 	},
 	{
-		title: 'Workers',
+		title: 'Speed',
 		description:
-			'Utilize the compute power of your devices in unison to encode and perform tasks at increased speeds.'
+			'XXXXXX.'
 	}
 ];
 
@@ -124,18 +124,18 @@ export default function RoadmapPage() {
 	return (
 		<PageWrapper>
 			<Head>
-				<title>Roadmap - Spacedrive</title>
-				<meta name="description" content="What can Spacedrive do?" />
+				<title>Roadmap - MachLab</title>
+				<meta name="description" content="What can MachLab do?" />
 			</Head>
 			<div className="lg:prose-xs prose dark:prose-invert container m-auto mb-20 flex max-w-4xl flex-col gap-20 p-4 pt-32">
 				<section className="flex flex-col items-center">
 					{/* ??? why img tag */}
 					<img className="pointer-events-none w-24" />
 					<h1 className="fade-in-heading mb-0 text-center text-5xl leading-snug">
-						What's next for Spacedrive?
+						What's next for MachLab?
 					</h1>
 					<p className="animation-delay-2 fade-in-heading text-center text-gray-400">
-						Here is a list of the features we are working on, and the progress we have
+						Here is a list of the technology we are working on, and the progress we have
 						made so far.
 					</p>
 				</section>
@@ -201,7 +201,7 @@ export default function RoadmapPage() {
 					<h2 className="my-1">That's not all.</h2>
 					<p>
 						We're always open to ideas and feedback over{' '}
-						<Link href="https://github.com/spacedriveapp/spacedrive/discussions">
+						<Link href="https://github.com/MachLab/discussions">
 							here
 						</Link>{' '}
 						and we have a <Link href="/blog">blog</Link> where you can find the latest
