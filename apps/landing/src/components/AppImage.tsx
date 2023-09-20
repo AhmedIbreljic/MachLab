@@ -12,15 +12,19 @@ const AppImage = () => {
 			<div className="fade-in-app-embed relative z-30 mt-8 h-[255px] w-full px-1 text-center sm:mt-16 sm:h-[428px] md:h-[428px] lg:h-[628px]">
 				<AppFrameOuter>
 					<AppFrameInner>
-						<Image
-							className="rounded-lg"
-							alt="spacedrive"
-							src="/images/app.webp"
-							loading="eager"
-							width={1278}
-							height={626}
-							quality={100}
-						/>
+						<video
+  className="rounded-lg"
+  alt="spacedrive"
+  src="/images/anduril.mp4"
+  width={1278}
+  height={626}
+  autoPlay // Automatically start the video
+  loop // Loop the video continuously
+  controls // Add video controls
+>
+  Your browser does not support the video tag.
+</video>
+
 					</AppFrameInner>
 				</AppFrameOuter>
 			</div>
