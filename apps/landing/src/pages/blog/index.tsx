@@ -16,13 +16,13 @@ export default function BlogPage({ posts }: InferGetStaticPropsType<typeof getSt
 		<PageWrapper>
 			<div className="lg:prose-xs prose dark:prose-invert prose-a:no-underline container m-auto mb-20 flex max-w-4xl flex-col p-4 pt-32">
 				<Head>
-					<title>Spacedrive Blog</title>
-					<meta name="description" content="Get the latest from Spacedrive." />
+					<title>MachLab Blog</title>
+					<meta name="description" content="Get the latest from MachLab." />
 				</Head>
 				<section>
 					<h1 className="fade-in-heading m-0">Blog</h1>
 					<p className="fade-in-heading animation-delay-1">
-						Get the latest from Spacedrive.
+						Get the latest from MachLab.
 					</p>
 				</section>
 				<section className="animation-delay-2 mt-8 grid grid-cols-1 gap-4 will-change-transform fade-in sm:grid-cols-1 lg:grid-cols-1">
