@@ -18,16 +18,16 @@ export default function DocHomePage({
 	return (
 		<PageWrapper>
 			<Head>
-				<title>Spacedrive Docs</title>
-				<meta name="description" content="Learn more about Spacedrive" />
+				<title>MachLab Docs</title>
+				<meta name="description" content="Learn more about MachLab" />
 			</Head>
 
 			<DocsLayout navigation={navigation}>
 				<Markdown>
 					<div className="mt-[105px]">
-						<h1 className="text-4xl font-bold">Spacedrive Docs</h1>
+						<h1 className="text-4xl font-bold">MachLab Docs</h1>
 						<p className="text-lg text-gray-400">
-							Welcome to the Spacedrive documentation. Here you can find all the
+							Welcome to the MachLab documentation. Here you can find all the
 							information you need to get started with Spacedrive.
 						</p>
 						<Link
