@@ -37,22 +37,22 @@ export function Footer() {
 						&copy; Copyright {new Date().getFullYear()} MachLab Technology Inc.
 					</p>
 					<div className="mb-10 mt-12 flex flex-row space-x-3">
-						<FooterLink link="https://x.com/spacedriveapp">
+						<FooterLink link="https://x.com/MachLab">
 							<Twitter className="h-6 w-6" />
 						</FooterLink>
 						<FooterLink link="https://discord.gg/gTaF2Z44f5">
 							<Discord className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://instagram.com/spacedriveapp">
+						<FooterLink link="https://instagram.com/MachLab">
 							<Instagram className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://github.com/spacedriveapp">
+						<FooterLink link="https://github.com/MachLab">
 							<Github className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://opencollective.com/spacedrive">
+						<FooterLink link="https://opencollective.com/MachLab">
 							<Opencollective className="h-6 w-6" />
 						</FooterLink>
-						<FooterLink link="https://twitch.tv/jamiepinelive">
+						<FooterLink link="https://twitch.tv/MachLab">
 							<Twitch className="h-6 w-6" />
 						</FooterLink>
 					</div>
@@ -70,15 +70,14 @@ export function Footer() {
 				<div className="pointer-events-none col-span-1 flex flex-col space-y-2">
 					<h3 className="mb-1 text-xs font-bold uppercase">Downloads</h3>
 					<div className="col-span-1 flex flex-col space-y-2 opacity-50">
-						<FooterLink link="#">macOS</FooterLink>
-						<FooterLink link="#">Windows</FooterLink>
-						<FooterLink link="#">Linux</FooterLink>
-						<FooterLink link="#">Android</FooterLink>
-						<FooterLink link="#">iOS</FooterLink>
+						<FooterLink link="#">Rockets</FooterLink>
+						<FooterLink link="#">Drones</FooterLink>
+						<FooterLink link="#">AUV</FooterLink>
+						<FooterLink link="#">Devices</FooterLink>
 					</div>
 				</div>
 				<div className="col-span-1 flex flex-col space-y-2">
-					<h3 className="mb-1 text-xs font-bold uppercase ">Developers</h3>
+					<h3 className="mb-1 text-xs font-bold uppercase ">Engineers</h3>
 					<FooterLink link="/docs/product/getting-started/introduction">
 						Documentation
 					</FooterLink>
@@ -92,17 +91,17 @@ export function Footer() {
 						<FooterLink link="#">Extensions</FooterLink>
 					</div>
 					<div className="pointer-events-none opacity-50">
-						<FooterLink link="#">Self Host</FooterLink>
+						<FooterLink link="#">VPN</FooterLink>
 					</div>
 				</div>
 				<div className="col-span-1 flex flex-col space-y-2">
-					<h3 className="mb-1 text-xs font-bold uppercase ">Org</h3>
-					<FooterLink blank link="https://opencollective.com/spacedrive">
+					<h3 className="mb-1 text-xs font-bold uppercase ">Org Chart</h3>
+					<FooterLink blank link="https://opencollective.com/MachLab">
 						Open Collective
 					</FooterLink>
 					<FooterLink
 						blank
-						link="https://github.com/spacedriveapp/spacedrive/blob/main/LICENSE"
+						link="https://github.com/MachLab/MachLab/blob/main/LICENSE"
 					>
 						License
 					</FooterLink>
