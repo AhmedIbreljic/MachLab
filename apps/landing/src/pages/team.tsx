@@ -27,7 +27,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 		}
 	},
 	{
-		name: 'Andrew Hall',
+		name: 'Andrew Taung',
 		role: 'React Native Engineer',
 		imageUrl: '/images/team/utku.jpg',
 		socials: {
