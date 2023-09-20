@@ -41,7 +41,7 @@ export default function PostPage({ post }: InferGetStaticPropsType<typeof getSta
 	return (
 		<PageWrapper>
 			<Head>
-				<title>{`${post.title} - Spacedrive Blog`}</title>
+				<title>{`${post.title} - MachLab Blog`}</title>
 				<meta name="description" content={description} />
 				<meta property="og:title" content={post.title} />
 				<meta property="og:description" content={description} />
