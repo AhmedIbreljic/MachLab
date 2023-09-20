@@ -170,17 +170,15 @@ export default function TeamPage() {
 					/>
 					<div className="relative z-10">
 						<h1 className="fade-in-heading text-5xl leading-tight sm:leading-snug ">
-							We believe file management should be{' '}
-							<span className="title-gradient">universal</span>.
+							Innovating advanced electronics for mach-speed{' '}
+							<span className="title-gradient">vehicles</span>.
 						</h1>
 						<p className="animation-delay-2 fade-in-heading text-white/50 ">
-							Your priceless personal data shouldn't be stuck in a device ecosystem.
-							It should be OS agnostic, permanent and owned by you.
+							When it comes to pushing the boundaries of electronic advancements and electronics designed 
+							for speed, we are at the forefront. 
 						</p>
 						<p className="animation-delay-2 fade-in-heading text-white/50 ">
-							The data we create daily is our legacy—that will long outlive us. Open
-							source technology is the only way to ensure we retain absolute control
-							over the files that define our lives, at unlimited scale.
+							We engage in daily testing and conduct ongoing research and development to enhance our prototypes and advanced electronic kits, catering to engineers' needs.
 						</p>
 						<Link
 							href="/docs/product/resources/faq"
