@@ -62,7 +62,7 @@ export function HomeCTA() {
 							Join Email List
 						</Button>
 						<Button
-							href="https://github.com/spacedriveapp/spacedrive"
+							href="https://machlab.myshopify.com/"
 							target="_blank"
 							className="z-30 cursor-pointer"
 							variant="accent"
