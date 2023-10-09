@@ -5,7 +5,7 @@
   <p align="center">
    <img width="150" height="150" src="packages/assets/images/AppLogo.png" alt="Logo">
   </p>
-  <h1 align="center"><b>MachLab</b></h1>
+  <h1 align="center"><b>Spacedrive</b></h1>
   <p align="center">
   A file explorer from the future.
     <br />
