@@ -73,7 +73,7 @@ export default function NavBar() {
 				<div className="m-auto hidden space-x-4 text-white lg:block ">
 					<NavLink link="/roadmap">Roadmap</NavLink>
 					<NavLink link="/team">Team</NavLink>
-					<NavLink link="#">Blog</NavLink>
+					<NavLink link="/blog">Blog</NavLink>
 					<NavLink link="#">Docs</NavLink>
 					<div className="relative inline">
 						<NavLink link="/careers">Careers</NavLink>
