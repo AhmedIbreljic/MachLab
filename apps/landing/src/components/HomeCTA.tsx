@@ -59,7 +59,7 @@ export function HomeCTA() {
 							className="z-30 cursor-pointer border-0"
 							variant="gray"
 						>
-							Join Email List
+							Join WaitList
 						</Button>
 						<Button
 							href="https://machlab.myshopify.com/"
