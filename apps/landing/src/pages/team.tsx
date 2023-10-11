@@ -8,9 +8,9 @@ import { TeamMember, TeamMemberProps } from '~/components/TeamMember';
 
 export const teamMembers: Array<TeamMemberProps> = [
 	{
-		name: 'Ljorden Akhtom',
+		name: 'Ahmed I',
 		role: 'Founder, CEO & Engineer',
-		imageUrl: '/images/team/jamie.jpg',
+		imageUrl: '/images/team/ahmed.jpg',
 		socials: {
 			twitter: 'https://x.com/MagnusMachLab',
 			twitch: 'https://twitch.tv/MagnusMachLab',
@@ -18,8 +18,8 @@ export const teamMembers: Array<TeamMemberProps> = [
 		}
 	},
 	{
-		name: 'Ericson James',
-		role: 'Senior Principle Systems Engineer',
+		name: 'Ted D',
+		role: 'Hardware Engineer',
 		imageUrl: '/images/team/ericson.jpg',
 		socials: {
 			twitter: 'https://x.com/fogodev',
@@ -28,7 +28,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 	},
 	{
 		name: 'Andrew Taung',
-		role: 'Senior Hardware Engineer',
+		role: 'Software Engineer',
 		imageUrl: '/images/team/utku.jpg',
 		socials: {
 			github: 'https://github.com/MachLab2'
@@ -36,7 +36,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 	},
 	{
 		name: 'Pye Ling Phaou',
-		role: 'Senior Mechanical Engineer',
+		role: 'Mechanical Engineer',
 		imageUrl: '/images/team/jake.jpg',
 		socials: {
 			github: 'https://github.com/MachLab3'
