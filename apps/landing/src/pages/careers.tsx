@@ -101,10 +101,7 @@ export default function CareersPage() {
 				/>
 			</Head>
 			<div className="prose prose-invert container relative m-auto mb-20 min-h-screen max-w-4xl p-4 pt-32 text-white">
-				<div
-					className="bloom subtle egg-bloom-two -top-60 right-[-400px]"
-					style={{ transform: 'scale(2)' }}
-				/>
+				<div/>
 				<h1 className="fade-in-heading mb-3 px-2 text-center text-4xl font-black leading-tight text-white md:text-5xl">
 					Building advanced electronics for mach-speed vehicles.
 				</h1>
