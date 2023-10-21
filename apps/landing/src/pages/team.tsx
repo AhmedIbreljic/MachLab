@@ -59,13 +59,10 @@ export default function TeamPage() {
 			<Markdown articleClassNames="mx-auto mt-32 prose-a:text-white">
 				<Head>
 					<title>Our Team - MachLab</title>
-					<meta name="description" content="Who's behind Spacedrive?" />
+					<meta name="description" content="Who's behind MachLab?" />
 				</Head>
 				<div className="team-page relative mx-auto">
 					<div
-						className="bloom subtle egg-bloom-one -top-60 right-[-400px]"
-						style={{ transform: 'scale(2)' }}
-					/>
 					<div className="relative z-10">
 						<h1 className="fade-in-heading text-5xl leading-tight sm:leading-snug ">
 							Innovating advanced electronics for mach-speed{' '}
