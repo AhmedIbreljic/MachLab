@@ -65,7 +65,7 @@ export default function TeamPage() {
 					<div/>
 					<div className="relative z-10">
 						<h1 className="fade-in-heading text-5xl leading-tight sm:leading-snug ">
-							Innovating advanced electronics for mach-speed .{' '}
+							Innovating advanced electronics for mach-speed {' '}
 							<span className="title-gradient">vehicles</span>.
 						</h1>
 						<p className="animation-delay-2 fade-in-heading text-white/50 ">
