@@ -10,7 +10,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 	{
 		name: 'Jack I',
 		role: 'Founder, CEO & Engineer',
-		imageUrl: '/images/team/jackie.jpg',
+		imageUrl: '/images/team/scott.jpg',
 		socials: {
 			twitter: 'https://x.com/MagnusMachLab',
 			twitch: 'https://twitch.tv/MagnusMachLab',
