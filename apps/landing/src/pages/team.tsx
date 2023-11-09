@@ -8,7 +8,7 @@ import { TeamMember, TeamMemberProps } from '~/components/TeamMember';
 
 export const teamMembers: Array<TeamMemberProps> = [
 	{
-		name: 'Scott I',
+		name: 'Ahmed Ibreljic',
 		role: 'Founder, CEO & Engineer',
 		imageUrl: '/images/team/scott.png',
 		socials: {
