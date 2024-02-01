@@ -17,31 +17,6 @@ export const teamMembers: Array<TeamMemberProps> = [
 			github: 'https://github.com/theMagnusMachLab'
 		}
 	},
-	{
-		name: 'Ted D',
-		role: 'Hardware Engineer',
-		imageUrl: '/images/team/ericson.jpg',
-		socials: {
-			twitter: 'https://x.com/fogodev',
-			github: 'https://github.com/MachLab1'
-		}
-	},
-	{
-		name: 'Andrew Taung L',
-		role: 'Software Engineer',
-		imageUrl: '/images/team/utku.jpg',
-		socials: {
-			github: 'https://github.com/MachLab2'
-		}
-	},
-	{
-		name: 'Pye Ling P',
-		role: 'Mechanical Engineer',
-		imageUrl: '/images/team/jake.jpg',
-		socials: {
-			github: 'https://github.com/MachLab3'
-		}
-	},
 ];
 
 const investors: Array<TeamMemberProps> = [
