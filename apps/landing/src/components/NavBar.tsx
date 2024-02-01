@@ -97,13 +97,13 @@ export default function NavBar() {
 					<Dropdown.Section>
 						<Dropdown.Item
 							icon={Discord}
-							onClick={redirect('https://discord.gg/gTaF2Z44f5')}
+							onClick={redirect('#')}
 						>
 							Join Discord
 						</Dropdown.Item>
 						<Dropdown.Item
 							icon={Github}
-							onClick={redirect('https://github.com/spacedriveapp/spacedrive')}
+							onClick={redirect('#')}
 						>
 							Repository
 						</Dropdown.Item>
