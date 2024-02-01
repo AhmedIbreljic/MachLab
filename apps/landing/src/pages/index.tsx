@@ -150,7 +150,7 @@ export default function HomePage() {
 							<br />
 							<Link
 								className="text-primary-600 transition hover:text-primary-500"
-								href="/docs/product/getting-started/introduction"
+								href="#"
 							>
 								Find out more →
 							</Link>
