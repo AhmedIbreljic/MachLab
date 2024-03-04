@@ -20,22 +20,34 @@ export const teamMembers: Array<TeamMemberProps> = [
 
 const investors: Array<TeamMemberProps> = [
 	{
-		name: 'Analog Devices',
+		name: 'Analog',
 		role: 'Sponsor',
-		investmentRound: 'Seed Round',
+		investmentRound: '',
 		imageUrl: '/images/team/analogd.png',
 	},
 	{
 		name: 'Xilinx',
 		role: 'Sponsor',
-		investmentRound: 'Seed Round',
+		investmentRound: '',
 		imageUrl: '/images/team/xilinx.jpg',
 	},
 	{
 		name: 'Nvidia',
 		role: 'Sponsor',
-		investmentRound: 'Seed Round',
+		investmentRound: '',
 		imageUrl: '/images/team/nvidia.jpg',
+	},
+	{
+		name: 'Propulsion S',
+		role: 'Client',
+		investmentRound: 'UMass Boston',
+		imageUrl: '/images/team/umbprops.png',
+	},
+	{
+		name: 'Micro Center',
+		role: 'Sponsor',
+		investmentRound: '',
+		imageUrl: '/images/team/microcenter.png',
 	},
 ];
 
