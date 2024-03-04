@@ -8,21 +8,20 @@ import { TeamMember, TeamMemberProps } from '~/components/TeamMember';
 
 export const teamMembers: Array<TeamMemberProps> = [
 	{
-		name: 'Ahmed I',
-		role: 'Founder, CEO & Engineer',
-		imageUrl: '/images/team/ahmed.png',
+		name: 'Teddy D',
+		role: 'Chief Engineer and CEO',
+		imageUrl: '/images/team/ericson.jpg',
 		socials: {
-			twitter: 'https://x.com/MagnusMachLab',
-			twitch: 'https://twitch.tv/MagnusMachLab',
-			github: 'https://github.com/theMagnusMachLab'
+			twitter: 'https://x.com/',
+			github: 'https://github.com'
 		}
 	},
 ];
 
 const investors: Array<TeamMemberProps> = [
 	{
-		name: 'Coming soon',
-		role: 'XXX',
+		name: 'Analog Devices',
+		role: 'Sponsor',
 		investmentRound: 'Seed Round',
 		imageUrl: '/images/investors/naval.jpg'
 	},
