@@ -23,7 +23,19 @@ const investors: Array<TeamMemberProps> = [
 		name: 'Analog Devices',
 		role: 'Sponsor',
 		investmentRound: 'Seed Round',
-		imageUrl: '/images/investors/naval.jpg'
+		imageUrl: '/images/investors/analogd.png'
+	},
+	{
+		name: 'Xilinx',
+		role: 'Sponsor',
+		investmentRound: 'Seed Round',
+		imageUrl: '/images/investors/xilinx.jpg'
+	},
+	{
+		name: 'Nvidia',
+		role: 'Sponsor',
+		investmentRound: 'Seed Round',
+		imageUrl: '/images/investors/nvidia.jpg'
 	},
 ];
 
