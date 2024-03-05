@@ -24,6 +24,7 @@ export const teamMembers: Array<TeamMemberProps> = [
 			twitter: 'https://x.com/',
 			github: 'https://github.com'
 		},
+	},
 		{
 		name: 'Scott Miller',
 		role: 'Lead Hardware Engineer, SME',
