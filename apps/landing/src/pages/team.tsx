@@ -8,7 +8,7 @@ import { TeamMember, TeamMemberProps } from '~/components/TeamMember';
 
 export const teamMembers: Array<TeamMemberProps> = [
 	{
-		name: 'Teddy D',
+		name: 'Teddy Daniel',
 		role: 'Chief Engineer and CEO',
 		imageUrl: '/images/team/ericson.jpg',
 		socials: {
@@ -16,6 +16,22 @@ export const teamMembers: Array<TeamMemberProps> = [
 			github: 'https://github.com'
 		}
 	},
+	{
+		name: 'Brendan Nguyen',
+		role: 'Lead Hardware Engineer, SME',
+		imageUrl: '/images/team/utku.jpg',
+		socials: {
+			twitter: 'https://x.com/',
+			github: 'https://github.com'
+		},
+		{
+		name: 'Scott Miller',
+		role: 'Lead Hardware Engineer, SME',
+		imageUrl: '/images/team/scott.png',
+		socials: {
+			twitter: 'https://x.com/',
+			github: 'https://github.com'
+		},
 ];
 
 const investors: Array<TeamMemberProps> = [
