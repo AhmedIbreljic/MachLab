@@ -55,7 +55,7 @@ const investors: Array<TeamMemberProps> = [
 	},
 	{
 		name: 'Propulsion Systems',
-		role: 'Client',
+		role: 'Test',
 		investmentRound: 'UMass Boston',
 		imageUrl: '/images/team/umbprops.png',
 	},
@@ -64,6 +64,12 @@ const investors: Array<TeamMemberProps> = [
 		role: 'Supplier',
 		investmentRound: '',
 		imageUrl: '/images/team/microcenter.png',
+	},
+	{
+		name: 'Rocket Propulsion Group',
+		role: 'Test',
+		investmentRound: 'Boston University',
+		imageUrl: '/images/team/BURPG.png',
 	},
 ];
 
