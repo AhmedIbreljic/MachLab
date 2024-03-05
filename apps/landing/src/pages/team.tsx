@@ -21,31 +21,31 @@ export const teamMembers: Array<TeamMemberProps> = [
 const investors: Array<TeamMemberProps> = [
 	{
 		name: 'Analog',
-		role: 'Sponsor',
+		role: 'Supplier',
 		investmentRound: '',
 		imageUrl: '/images/team/analogd.png',
 	},
 	{
 		name: 'Xilinx',
-		role: 'Sponsor',
+		role: 'Supplier',
 		investmentRound: '',
 		imageUrl: '/images/team/xilinx.jpg',
 	},
 	{
 		name: 'Nvidia',
-		role: 'Sponsor',
+		role: 'Supplier',
 		investmentRound: '',
 		imageUrl: '/images/team/nvidia.jpg',
 	},
 	{
-		name: 'Propulsion S',
+		name: 'Propulsion Systems',
 		role: 'Client',
 		investmentRound: 'UMass Boston',
 		imageUrl: '/images/team/umbprops.png',
 	},
 	{
 		name: 'Micro Center',
-		role: 'Sponsor',
+		role: 'Supplier',
 		investmentRound: '',
 		imageUrl: '/images/team/microcenter.png',
 	},
@@ -89,18 +89,6 @@ export default function TeamPage() {
 									<TeamMember key={member.name} {...member} />
 								))}
 							</div>
-							<p className="text-sm text-gray-400">
-								... and other{' '}
-								<Link
-									href="https://github.com/spacedriveapp/spacedrive/graphs/contributors"
-									target="_blank"
-									rel="noreferrer"
-									className="oss-credit-gradient duration-200 hover:opacity-75"
-								>
-									technology contributors
-								</Link>{' '}
-								on GitHub.
-							</p>
 							<h2
 								id="investors"
 								className="mb-2 mt-10 text-2xl leading-relaxed sm:mt-20 "
