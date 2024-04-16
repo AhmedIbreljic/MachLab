@@ -62,7 +62,7 @@ export function HomeCTA() {
 							Join Email List
 						</Button>
 						<Button
-							href="https://machlab.myshopify.com/"
+							href="https://shop.machlab.co/"
 							target="_blank"
 							className="z-30 cursor-pointer"
 							variant="accent"
